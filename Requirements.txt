@@ -7,3 +7,4 @@ QPushButton
 QToolTip
 QLabel
 QLineEdit
+QtGui
