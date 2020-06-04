@@ -7,6 +7,6 @@
    * Inserção de imagens
    
 # Representação visual 
-![](/imagens/tela.png)
+![](https://github.com/JodanGalas/PyQt5/blob/master/Exemplo%2001/Imagens/tela.PNG)
 
 
