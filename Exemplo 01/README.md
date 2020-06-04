@@ -7,6 +7,6 @@
    * Inserção de imagens
    
 # Representação visual 
-![](/imagens/requisitos.jpg)
+![](/imagens/tela.png)
 
 
