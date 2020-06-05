@@ -1,18 +1,19 @@
 import sys
 from PyQt5.QtWidgets import QApplication, QMainWindow, QPushButton, QToolTip, QLabel, QLineEdit
 from PyQt5 import QtGui
+
 class Janela (QMainWindow):
     def __init__(self):
         super().__init__()
 
         self.topo = 100
-        self.esquerda = 100
+        self.esquerda = 100                             # line 9-13 // Criação da janela principal
         self.largura = 800
         self.altura = 600
         self.titulo = "Primeira Janela"
 
         self.caixa_texto = QLineEdit(self)
-        self.caixa_texto.move(25,20)
+        self.caixa_texto.move(25,20)                    # line 15-17 // Criação da caixa de texto
         self.caixa_texto.resize(220,30)
 
         botao1 = QPushButton('Botão1',self)
