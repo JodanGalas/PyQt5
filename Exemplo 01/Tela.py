@@ -60,7 +60,7 @@ class Janela (QMainWindow):
 
     def botao1_click(self): #função
         self.label_1.setText("O botão verde foi ativado")
-        self.label_1.setStyleSheet('QLabel {font:bold;font-size:25px;color:red}')
+        self.label_1.setStyleSheet('QLabel {font:bold;font-size:25px;color:green}')
         self.carro.setPixmap(QtGui.QPixmap('carro1.png'))
 
     def mostra_texto(self):
@@ -68,8 +68,8 @@ class Janela (QMainWindow):
         self.label_caixa.setText("Digitou: " + conteudo)
 
     def botao2_click(self):
-        self.label_1.setText("O botão azul foi ativado")
-        self.label_1.setStyleSheet('QLabel {font:bold;font-size:25px;color:blue}')
+        self.label_1.setText("O botão vermelho foi ativado")
+        self.label_1.setStyleSheet('QLabel {font:bold;font-size:25px;color:red}')
         self.carro.setPixmap(QtGui.QPixmap('carro2.png.png'))
 
 aplicacao = QApplication(sys.argv)
