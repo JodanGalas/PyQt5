@@ -62,15 +62,15 @@ class Janela (QMainWindow):
         self.setGeometry(self.esquerda, self.topo, self.largura, self.altura)
         self.setWindowTitle(self.titulo)
         self.show()
-
-    def botao1_click(self): #função do botão 01
+#função do botão 01
+    def botao1_click(self): 
         self.label_1.setText("O botão verde foi ativado")
         self.label_1.setStyleSheet('QLabel {font:bold;font-size:25px;color:green}')
-
-    def mostra_texto(self): #
+#função do botão mostra_texto
+    def mostra_texto(self):
         conteudo = self.caixa_texto.text()
         self.label_caixa.setText("Digitou: " + conteudo)
-
+#função do botão2
     def botao2_click(self):
         self.label_1.setText("O botão vermelho foi ativado")
         self.label_1.setStyleSheet('QLabel {font:bold;font-size:25px;color:red}')
