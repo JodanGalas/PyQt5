@@ -11,7 +11,7 @@ class Janela (QMainWindow):
         self.esquerda = 100                             
         self.largura = 800
         self.altura = 600
-        self.titulo = "Primeira Janela"
+        self.titulo = "Janela Principal"
 
 #Criação da caixa de texto
         self.caixa_texto = QLineEdit(self)
@@ -19,20 +19,20 @@ class Janela (QMainWindow):
         self.caixa_texto.resize(220,30)
 
 # Configuração do botão1
-        botao1 = QPushButton('Botão1',self)             
+        botao1 = QPushButton('Botão 01',self)             
         botao1.move(150,200)
         botao1.resize(150,80)                           
         botao1.setStyleSheet('QPushButton {background-color:green;font:bold;font-size:20px}')
         botao1.clicked.connect(self.botao1_click)
 
 # Configuração do botão2
-        botao2 = QPushButton('Botão2', self)            
+        botao2 = QPushButton('Botão 02', self)            
         botao2.move(350, 200)
         botao2.resize(150, 80)
         botao2.setStyleSheet('QPushButton {background-color:red;font:bold;font-size:20px}')
         botao2.clicked.connect(self.botao2_click)
 # Configuração do botão 'enviar texto'
-        botao_texto = QPushButton('Enviar Texto', self)
+        botao_texto = QPushButton('Enviar', self)
         botao_texto.move(550, 200)
         botao_texto.resize(150, 80)
         botao_texto.setStyleSheet('QPushButton {background-color:pink;font:bold;font-size:20px}')
