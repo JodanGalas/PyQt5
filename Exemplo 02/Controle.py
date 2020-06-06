@@ -8,7 +8,7 @@ def deletar():
     lista.listWidget.clear()
 
 app = QtWidgets.QApplication([])
-lista = uic.loadUi("Pratica.ui")
+lista = uic.loadUi("Pratica.ui") #chama o arquivo pratica
 lista.pushButton.clicked.connect(listar_dados)
 lista.pushButton_2.clicked.connect(deletar)
 
