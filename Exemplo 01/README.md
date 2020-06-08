@@ -1,8 +1,8 @@
 # Exemplo 01
 
 * Fiz uso de:
-   * Botões
-   * Caixa de texto
+   * PushButton
+   * lineEdit
    * Label
    
 # Representação visual 
