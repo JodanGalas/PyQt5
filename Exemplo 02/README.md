@@ -1,6 +1,7 @@
 # Exemplo 02
 * Fiz uso de:
    * PushButton
+   * PushButton
    * lineEdit
    * listWidget
    
